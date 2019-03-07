@@ -1,0 +1,9 @@
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\bin\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.deps.json
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\bin\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.dll
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\obj\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.csprojAssemblyReference.cache
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\obj\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\obj\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.AssemblyInfoInputs.cache
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\obj\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.AssemblyInfo.cs
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\bin\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.pdb
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\obj\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.dll
+C:\Users\Utente\Desktop\tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.data\obj\Debug\netcoreapp2.2\tsac18-CettolinPhotoContest.data.pdb

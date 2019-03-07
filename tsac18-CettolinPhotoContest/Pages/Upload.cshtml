@@ -1,0 +1,12 @@
+﻿@page
+@model tsac18_CettolinPhotoContest.web.Pages.UploadModel
+@{
+    ViewData["Title"] = "Upload";
+}
+
+<h1>Upload</h1>
+
+<form method="post" enctype="multipart/form-data" asp-page="Upload">
+    <input type="file" asp-for="photoUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>

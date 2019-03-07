@@ -1,0 +1,73 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    int i = 0;
+    int index = 0;
+}
+
+
+@foreach (var item in Model.list)
+{
+    if (i == 0)
+    {
+        @:<div class="row">
+        }
+
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a asp-page="/Details" asp-route-id="@item.Id"><img src=@item.Url /></a>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="col-md-3">
+                        @if (item.Voted)
+                        {
+                            <div>
+                                Numero voti: @item.NVotes
+                                @if (item.NVotes == 0)
+                                {
+                                <h5>MediaVoti: 0</h5>}
+                                else
+                                {
+                                <h5> Media voti:</h5>@(item.SumVotes / item.NVotes)
+                                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <div>
+                                <form method="post" asp-page-handler="Vote">
+                                    <label>Vota l'img</label>
+                                    <select asp-for="Input.Vote">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <input type="hidden" value="@item.Id" name="id" />
+                                    <button type="submit" class="btn-info">Vota</button>
+                                </form>
+
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        if (i == 3 || index == (Model.list.Count() - 1))
+        {
+        @:</div>
+        i = 0;
+    }
+    else
+    {
+        i++;
+    }
+
+    index++;
+}

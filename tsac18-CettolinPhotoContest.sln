@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tsac18-CettolinPhotoContest.web", "tsac18-CettolinPhotoContest\tsac18-CettolinPhotoContest.web.csproj", "{520FA170-5C1A-4880-B39F-399A7BE3468D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tsac18-CettolinPhotoContest.data", "tsac18-CettolinPhotoContest.data\tsac18-CettolinPhotoContest.data.csproj", "{D26E5F94-7B57-4948-960E-E2A3D1AAC381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{520FA170-5C1A-4880-B39F-399A7BE3468D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520FA170-5C1A-4880-B39F-399A7BE3468D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520FA170-5C1A-4880-B39F-399A7BE3468D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520FA170-5C1A-4880-B39F-399A7BE3468D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26E5F94-7B57-4948-960E-E2A3D1AAC381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26E5F94-7B57-4948-960E-E2A3D1AAC381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26E5F94-7B57-4948-960E-E2A3D1AAC381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26E5F94-7B57-4948-960E-E2A3D1AAC381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EAC8DCD-ED8A-4A47-B973-B260B0EF98A3}
+	EndGlobalSection
+EndGlobal
